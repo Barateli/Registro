@@ -12,7 +12,7 @@ function gerarLink() {
       const displayUrl = baseUrl + email; // Para exibição amigável
 
       document.getElementById('link').innerHTML = `
-        <p>Seu link:</p>
+        <p>Acesse o link abaixo e crie sua conta na Shopify:</p>
         <a href="${fullUrl}" target="_blank">${displayUrl}</a>
       `;
     }
